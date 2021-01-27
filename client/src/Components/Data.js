@@ -1,9 +1,7 @@
 import { Table } from "../Components";
 import "./Data.css";
 
-const Data = props => {
-  const { resData, fetchData, currentPage } = props;
-  console.log(currentPage);
+const Data = ({ resData, fetchData, currentPage }) => {
   return (
     <div className="container">
       <div>

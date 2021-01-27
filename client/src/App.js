@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>Cryptocurrency Prices by Market Cap</h1>
+        <h1>Cryptocurrency Prices</h1>
       </header>
       <Main />
     </div>
