@@ -1,0 +1,19 @@
+.nav:hover {
+  cursor: pointer;
+}
+
+.nav-disabled {
+  color: lightgray;
+}
+.nav-disabled:hover {
+  cursor: not-allowed;
+}
+
+.nav-container {
+  margin-bottom: 30px;
+}
+
+.nav-text {
+  font-weight: bold;
+  margin: 15px;
+}

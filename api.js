@@ -5,6 +5,7 @@ const API_KEY = process.env.API_KEY;
 
 router.get("/", async (req, res) => {
   const start = req.query.start || 1;
+  console.log(start);
   try {
     const apiResponse = await axios.get(
       `https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?start=${start}`,

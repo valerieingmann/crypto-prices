@@ -1,0 +1,50 @@
+table {
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+th {
+  padding: 20px;
+  text-align: left;
+  font-size: 20px;
+}
+tr {
+  border-bottom: 1px solid #eff2f5;
+}
+
+td {
+  padding: 18px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+thead {
+  border-top: 1px solid #eff2f5;
+}
+
+.percent-change-container {
+  margin-left: 4px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.percent-change-container span {
+  margin-left: 5px;
+}
+
+.green {
+  color: #16c784;
+}
+
+.green-icon {
+  margin-top: 6px;
+}
+
+.red {
+  color: #ea3943;
+}
+
+.red-icon {
+  margin-bottom: 6px;
+}
